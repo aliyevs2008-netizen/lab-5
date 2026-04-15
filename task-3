@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .margin-box {
+            border: 1px dashed #666;
+            padding: 20px;
+            width: fit-content;
+            margin: 50px auto;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        .border-box {
+            background-color: #00a86b; 
+            padding: 15px; 
+            border: 1px solid #333;
+        }
+
+        .padding-box {
+            background-color: #e0e0e0; 
+            padding: 30px;
+            border: 1px solid #999;
+        }
+
+        .content-box {
+            background-color: #f5f5f5;
+            border: 1px dashed #aaa;
+            padding: 20px 80px;
+        }
+
+        p {
+            margin: 0 0 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="margin-box">
+        <p>Margin</p>
+        <div class="border-box">
+            <p style="color: white;">Border</p>
+            <div class="padding-box">
+                <p>Padding</p>
+                <div class="content-box">
+                    Content
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
