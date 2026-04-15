@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Məhsul Səhifəsi</title>
+    <style>
+        body {
+            background-color: #d1d1d1; 
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 50px 0;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 20px; 
+            max-width: 900px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .image-container {
+            position: relative; 
+            width: 100%;
+        }
+
+        .image-container img {
+            width: 100%;
+            display: block;
+        }
+
+        .click-btn {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            font-size: 12px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .product-name {
+            font-weight: bold;
+            color: #333;
+            font-size: 14px;
+        }
+
+        .price {
+            color: #2e7d32; 
+            font-weight: bold;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <div class="image-container">
+                <img src="https://lvovich.by/wp-content/uploads/2014/06/StockSnap_FLU1A9EK7E-520x293.jpg" alt="Məhsul şəkli">
+                <button class="click-btn">Click</button>
+            </div>
+            <div class="card-footer">
+                <span class="product-name">Məhsul 1</span>
+                <span class="price">10 AZN</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyoLWTvgjfax5BNPLKKLkzz4uh9UVF0_lF_K3Fesk6UQqGOgC" alt="Məhsul şəkli">
+                <button class="click-btn">Click</button>
+            </div>
+            <div class="card-footer">
+                <span class="product-name">Mehsul 2</span>
+                <span class="price">15 AZN</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image-container">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDFuUfUUlYvTBH8FFPJRVnWAbuJ5ReLtwQ1izd74qc-xzSNaFq" alt="Məhsul şəkli">
+                <button class="click-btn">Click</button>
+            </div>
+            <div class="card-footer">
+                <span class="product-name">Məhsul 3</span>
+                <span class="price">20 AZN</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image-container">
+                <img src="https://lvovich.by/wp-content/uploads/2014/06/StockSnap_FLU1A9EK7E-520x293.jpg" alt="Məhsul şəkli">
+                <button class="click-btn">Click</button>
+            </div>
+            <div class="card-footer">
+                <span class="product-name">Məhsul 1</span>
+                <span class="price">10 AZN</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyoLWTvgjfax5BNPLKKLkzz4uh9UVF0_lF_K3Fesk6UQqGOgC" alt="Məhsul şəkli">
+                <button class="click-btn">Click</button>
+            </div>
+            <div class="card-footer">
+                <span class="product-name">Mehsul 2</span>
+                <span class="price">15 AZN</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="image-container">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDFuUfUUlYvTBH8FFPJRVnWAbuJ5ReLtwQ1izd74qc-xzSNaFq" alt="Məhsul şəkli">
+                <button class="click-btn">Click</button>
+            </div>
+            <div class="card-footer">
+                <span class="product-name">Mehsul 3</span>
+                <span class="price">20 AZN</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
