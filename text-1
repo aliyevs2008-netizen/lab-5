@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: #d6d6d6; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .canvas {
+            position: relative;
+            width: 500px;
+            height: 400px;
+        }
+
+        .square {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+        }
+
+        /* Üst sıra */
+        .green {
+            background-color: #008000;
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+        }
+
+        .blue {
+            background-color: #0000FF;
+            top: 50px;
+            left: 220px; 
+            z-index: 1;
+        }
+
+        .yellow {
+            background-color: #FFFF00;
+            top: 130px;
+            left: 110px; 
+            z-index: 2; 
+        }
+
+        .red {
+            background-color: #FF0000;
+            top: 130px;
+            left: 280px; 
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="canvas">
+        <div class="square green"></div>
+        <div class="square blue"></div>
+        <div class="square yellow"></div>
+        <div class="square red"></div>
+    </div>
+
+</body>
+</html>
